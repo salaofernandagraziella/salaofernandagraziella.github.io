@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root {
+  --primery-color: #2a2a2e;
+  --secundary-color: #38383d;
+  --title-color: #df3b71;
+  --letter-color: #cfcfd1;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  color: var(--letter-color);
+  background-color: #1f1f1f;
+}
+
+a {
+  text-decoration: none;
+  transition: background 0.4s;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #f9aa33;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:hover {
+  color: #f9aa33;
+  text-decoration: underline;
+}
+
+hr {
+  margin: 0 !important;
+  border: 0;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

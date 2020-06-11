@@ -1,0 +1,124 @@
+#mainNav {
+  background-color: #212529;
+}
+
+#mainNav .navbar-brand span {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: none;
+  color: #fff;
+  transition: color 0.4s;
+}
+
+#mainNav .navbar-brand span:hover {
+  color: tomato;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: normal;
+  /* color: #f7de5f; */
+  transition: color 0.4s;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: tomato;
+}
+
+#mainNav .navbar-toggler {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: none;
+  outline: none;
+
+  background-color: #fff;
+  color: #212529;
+  transition: background 0.4s;
+}
+
+#mainNav .navbar-toggler:hover {
+  background-color: tomato;
+}
+
+.masthead {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url('/public/assets/raphael-lovaski-pxax5WuM7eY-unsplash.jpg');
+  background-size: contain cover;
+}
+
+/* .masthead img {
+  height: 100%;
+   width: 100%; 
+} */
+
+header.masthead {
+  display: flex;
+  align-items: center;
+}
+
+header.masthead .masthead-subheading {
+  font-size: 2.8rem;
+  /* color: #b1b6a6; */
+}
+
+header.masthead .masthead-heading {
+  font-size: 4rem;
+  line-height: 5rem;
+  letter-spacing: 0.7rem;
+}
+
+#portfolio {
+  min-height: 100vh;
+  padding-top: 10rem;
+}
+
+.page-section h2.section-heading {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+#contact {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 10rem; */
+}
+
+.page-section h3.section-subheading {
+  font-size: 1.5rem;
+}
+
+.btn-modal {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 992px) {
+  .text-lg-left {
+    color: #fff;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    display: flex;
+    align-items: center;
+  }
+
+  header.masthead .masthead-subheading {
+    font-size: 3.5rem;
+  }
+
+  header.masthead .masthead-heading {
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 1rem;
+  }
+}
