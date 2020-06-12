@@ -48,7 +48,7 @@
   position: relative;
   height: 100vh;
   width: 100vw;
-  background: url('/public/assets/raphael-lovaski-pxax5WuM7eY-unsplash.jpg');
+  background: url('/public/assets/principal.jpg');
   background-size: contain cover;
 }
 
@@ -64,6 +64,8 @@ header.masthead {
 
 header.masthead .masthead-subheading {
   font-size: 2.8rem;
+  color: #fff;
+
   /* color: #b1b6a6; */
 }
 
@@ -93,6 +95,14 @@ header.masthead .masthead-heading {
 
 .page-section h3.section-subheading {
   font-size: 1.5rem;
+}
+
+.page-section h3.section-subheading a {
+  color: #fff;
+}
+
+.page-section h3.section-subheading span {
+  color: #fff;
 }
 
 .btn-modal {
