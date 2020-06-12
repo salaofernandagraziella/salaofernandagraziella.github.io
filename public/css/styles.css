@@ -1,5 +1,6 @@
 #mainNav {
-  background-color: #212529;
+  background-color: transparent;
+  transition: background 0.4s;
 }
 
 #mainNav .navbar-brand span {
